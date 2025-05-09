@@ -11,6 +11,7 @@ export const Workflow = () => {
         autoPlay
         loop
         muted
+        preload="none"
         playsInline
       >
         <source src={video} type="video/mp4" />
