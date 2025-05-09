@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONTS  */
+
+.font-knewave {
+  font-family: "Knewave", system-ui;
+  font-style: normal;
+}
+
+.font-pp {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.font-pp-italic {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* BUTTONS */
+
+.buttons {
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "PP", sans-serif;
+  margin-right: 1.5rem;
+}
+
+.home-buttons {
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "PP", sans-serif;
+  outline: 1px solid #52525b;
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
+
+.home-buttons:hover {
+  background-color: rgba(156, 163, 175, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.bg-buttons {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.bg-buttons:hover {
+  outline: 1px solid #52525b;
+  background-color: rgba(156, 163, 175, 0.2);
+}
+
+/* SCROLL STYLE */
+
+.scroll-container {
+  overflow: auto;
+  padding-right: 15px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #3f3f46;
+  border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 10px;
+  border: 3px solid #27272a;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #27272a;
+}
+
+.scroll-container::-webkit-scrollbar-horizontal {
+  height: 8px;
+}
+
+/* BOX SIZING */
+
+.min-w {
+  width: 650px;
+}
+
+/* BG STYLE */
+.bg-home {
+  background-color: #27272a;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3Cpattern id='p' width='100' height='100' patternUnits='userSpaceOnUse' patternTransform='scale(0.71)'%3E%3Cpath data-color='outline' fill='none' stroke='%233F3F46' stroke-width='0.59' d='M50 0v100M100 50H0'%3E%3C/path%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23p)' width='100%25' height='100%25'%3E%3C/rect%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
