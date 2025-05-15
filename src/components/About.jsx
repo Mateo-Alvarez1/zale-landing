@@ -10,7 +10,7 @@ export const About = () => {
     },
     {
       id: Math.random() * 2,
-      title: "Automatización de tareas repetitiva",
+      title: "Automatización de tareas repetitivas",
       description:
         "Se pueden automatizar tareas repetitivas y ahorrar tiempo y esfuerzo en tareas administrativas, como enviar recordatorios a tus clientes sobre pagos pendientes o para confirmar citas o reservas.",
     },
@@ -18,7 +18,7 @@ export const About = () => {
       id: Math.random() * 2,
       title: "Experiencia personalizada",
       description:
-        "Podrás enviar mensajes automatizados con ofertas especiales o recomendaciones as, lo que significa que tus clientes pueden recibir una experiencia más personalizada.",
+        "Podrás enviar mensajes automatizados con ofertas especiales o recomendaciones , lo que significa que tus clientes pueden recibir una experiencia más personalizada.",
     },
   ];
 
