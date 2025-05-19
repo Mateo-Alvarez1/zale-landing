@@ -87,7 +87,13 @@ X unidad (pedido mínimo 50)`,
 • Cantidad a Pagar: $636.00`,
       from: "bot",
     },
+    { text: "Me gustaria pagar mi pedido", from: "user" },
+    {
+      text: "El link de pago es el siguiente: bit.ly/stripeorderpayment",
+      from: "bot",
+    },
     { text: "Muchas Gracias!", from: "user" },
+
     {
       text: "Que tengas lindo día, cualquier consulta estoy a disposición",
       from: "bot",
