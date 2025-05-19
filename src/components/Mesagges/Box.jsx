@@ -118,7 +118,7 @@ X unidad (pedido mínimo 50)`,
   }, [currentIndex]);
 
   return (
-    <div className="bg-zinc-700 p-3 mt-10 rounded-xl w-[270px] lg:w-max lg:min-w-[570px] h-[70vh] flex flex-col justify-between">
+    <div className="bg-zinc-700 p-3 mt-10 rounded-xl w-[340px] lg:w-max lg:min-w-[570px] h-[70vh] flex flex-col justify-between">
       <div className="overflow-y-auto pr-2 flex-1 scroll-container">
         {messages.map((msg, index) => (
           <p
